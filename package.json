@@ -2,6 +2,9 @@
   "name": "aoc",
   "module": "index.js",
   "type": "module",
+  "scripts": {
+    "test-day": "bun test $npm_config_day/day$npm_config_day.test.js --watch"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
